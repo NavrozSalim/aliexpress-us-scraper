@@ -1,7 +1,7 @@
 {
   "actorSpecification": 1,
   "name": "aliexpress-us-scraper",
-  "title": "Seller Pilot \u2014 AliExpress US Scraper",
+  "title": "Seller Pilot — AliExpress US Scraper",
   "description": "Production AliExpress US-market scraper (DS/Affiliate API) for Seller Pilot Hub.",
   "version": "0.1.0",
   "meta": {
@@ -11,12 +11,5 @@
     "sellerPilotHub": true
   },
   "input": "./input_schema.json",
-  "storages": {
-    "dataset": {
-      "actorSpecification": 1,
-      "title": "Scrape results",
-      "description": "Seller Pilot Hub compatible ScrapeResult rows."
-    }
-  },
   "dockerfile": "./Dockerfile"
 }
