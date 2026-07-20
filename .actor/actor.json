@@ -1,15 +1,18 @@
 {
   "actorSpecification": 1,
   "name": "aliexpress-us-scraper",
-  "title": "Seller Pilot — AliExpress US Scraper",
-  "description": "Production AliExpress US-market scraper (DS/Affiliate API) for Seller Pilot Hub.",
+  "title": "DataHarvest — AliExpress US Scraper",
+  "description": "Fetches AliExpress US-market price and title via API/HTML. Built for DataHarvest.",
   "version": "0.1.0",
   "meta": {
     "vendor": "aliexpressus",
     "region": "USA",
     "host": "aliexpress.com",
-    "sellerPilotHub": true
+    "dataHarvest": true
   },
   "input": "./input_schema.json",
-  "dockerfile": "./Dockerfile"
+  "dockerfile": "./Dockerfile",
+  "storages": {
+    "dataset": "./dataset_schema.json"
+  }
 }

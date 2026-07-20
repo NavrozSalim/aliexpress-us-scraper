@@ -1,4 +1,4 @@
-"""Apify Actor entry — Seller Pilot — AliExpress US Scraper (production scraper)."""
+"""Apify Actor entry — DataHarvest — AliExpress US Scraper (production scraper)."""
 from __future__ import annotations
 
 import os
